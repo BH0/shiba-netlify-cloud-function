@@ -7,7 +7,7 @@ module.exports.handler = async function(event, context) {
     fetch('http://shibe.online/api/shibes?count='+count+'&urls=true&httpsUrls=true')
     .then(res => res.json())
     .then(json => {
-        const shiba =  json[Math.floor(Math.random() * count)];
+        const shiba = json[Math.floor(Math.random() * count)];
         console.log("Shiba: " + shiba);  
         return {
             // return null to show no errors
