@@ -1,4 +1,4 @@
-// this file is unused 
+// this file is unused []
 const fetch = require("node-fetch"); 
 // For more info, check https://docs.netlify.com/functions/build-with-javascript
 module.exports.handler = async function(event, context) {
