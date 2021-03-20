@@ -15,7 +15,7 @@ module.exports.handler = async function(event, context) {
                 shiba: shiba
             })
         }
-    }); 
+    }).catch(err => console.log(err)); 
   }
   
   
